@@ -7,10 +7,10 @@ const makeChange = (c) => {
 		4:['p',1]
 	};
 	let res = []
-	for(let i=0;i<=Object.key(arr).length;i++){
+	for(let i=0;i<4 ;i++){
 		let count = 0;
 		const[symbol,val] = obj[i];
-		while(c>i){
+		while(c>=val ){
 			count ++;
 			c-=val;
 		}
