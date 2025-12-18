@@ -1,10 +1,10 @@
 const makeChange = (c) => {
   // your name here
 	const obj ={
-		1:['q',25],
-		2:['d',10],
-		3:['n',5],
-		4:['p',1]
+		0:['q',25],
+		1:['d',10],
+		2:['n',5],
+		3:['p',1]
 	};
 	let res = []
 	for(let i=0;i<4 ;i++){
