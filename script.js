@@ -6,7 +6,7 @@ const makeChange = (c) => {
 		2:['n',5],
 		3:['p',1]
 	};
-	let res = []
+	let res = {}
 	for(let i=0;i<4 ;i++){
 		let count = 0;
 		const[symbol,val] = obj[i];
